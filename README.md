@@ -1,9 +1,9 @@
 # Lawnmower_ros_package
 
-This package contain node that carry out a simulation of Lawnmower pattern movmenet of turtle (from the package turtlesim).
+This package contains a node that carries out a simulation of the Lawnmower pattern movement of the turtle (from the package turtlesim).
 
-The turtle ask user for start point, length and weidth for lawnmover pattern.
-The turtle uses feedback control system to correct its position and orentation throughout the trajectory. At first, the turtle turns until it faces directly at the goal location and then moves toward the goal position, The loop of rotation and moves runs until the pattern finished. 
+The turtle asks the user for the start point, length, and width of the lawnmower pattern.
+The turtle uses a feedback control system to correct its position and orientation throughout the trajectory. At first, the turtle turns until it faces directly at the goal location and then moves toward the goal position, The loop of rotation and moves runs until the pattern is finished. 
 
 The package contains a custom velocity message containing only the planar forward and planar rotational velocities of the turtle.
 
@@ -29,3 +29,23 @@ source devel/setup.bash
 ```
 roslaunch Lawnmover_ros_package lawnmower.launch
 ```
+# Results 
+**User inputs**
+
+![Screenshot 2022-02-06 161902](https://user-images.githubusercontent.com/44742647/152705970-220e0305-42fd-4c5b-8461-d4de1880bf99.png)
+
+
+**Completed mission**
+
+![Screenshot 2022-02-06 162103](https://user-images.githubusercontent.com/44742647/152705979-cbaf1f2b-06a5-4f5a-a10f-587540fdcd42.png)
+
+
+**User input but this time 'a' is grater than the canvas length**
+
+![Screenshot 2022-02-06 162215](https://user-images.githubusercontent.com/44742647/152706004-c666a473-d694-4c7d-8573-6b747e2b9cb4.png)
+
+
+**Path manipulation**
+
+![Screenshot 2022-02-06 162300](https://user-images.githubusercontent.com/44742647/152706043-a70cb7aa-d43c-44e1-91d1-a668ad033a9a.png)
+
