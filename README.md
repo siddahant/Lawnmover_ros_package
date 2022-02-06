@@ -7,6 +7,7 @@ The turtle uses feedback control system to correct its position and orentation t
 
 The package contains a custom velocity message containing only the planar forward and planar rotational velocities of the turtle.
 
+1. **Create a new workspace and clone the demonstration code.**
 ```
 # Create a new workspace
  mkdir -p ws/src
@@ -18,12 +19,12 @@ git clone https://github.com/ctsaitsao/turtlesim-waypoints.git turtlesim-waypoin
 # return to ws root
 cd ../ 
 ```
-
+2. **Build the workspace and activate it.**
 ```
 catkin_make install
 . devel/setup.bash
 ```
-
+3. **Launch the node.**
 ```
-roslaunch Lawnmover_ros_package lawnmover.launch
+roslaunch Lawnmover_ros_package lawnmower.launch
 ```
