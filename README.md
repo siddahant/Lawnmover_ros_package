@@ -1,6 +1,6 @@
-# Lawnmover_ros_package
+# Lawnmower_ros_package
 
-This package contain node that carry out a simulateion of Lawnmover pattern movmenet of turtle (from the package turtlesim).
+This package contain node that carry out a simulation of Lawnmower pattern movmenet of turtle (from the package turtlesim).
 
 The turtle ask user for start point, length and weidth for lawnmover pattern.
 The turtle uses feedback control system to correct its position and orentation throughout the trajectory. At first, the turtle turns until it faces directly at the goal location and then moves toward the goal position, The loop of rotation and moves runs until the pattern finished. 
