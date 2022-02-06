@@ -14,7 +14,7 @@ The package contains a custom velocity message containing only the planar forwar
 
 # clone the demonstration code
 cd ws/src
-git clone https://github.com/ctsaitsao/turtlesim-waypoints.git turtlesim-waypoints
+git clone https://github.com/siddahant/Lawnmover_ros_package.git
 
 # return to ws root
 cd ../ 
