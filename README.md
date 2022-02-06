@@ -40,7 +40,7 @@ roslaunch Lawnmover_ros_package lawnmower.launch
 ![Screenshot 2022-02-06 162103](https://user-images.githubusercontent.com/44742647/152705979-cbaf1f2b-06a5-4f5a-a10f-587540fdcd42.png)
 
 
-**User input but this time 'a' is grater than the canvas length**
+**User input but this time 'A' is grater than the canvas length**
 
 ![Screenshot 2022-02-06 162215](https://user-images.githubusercontent.com/44742647/152706004-c666a473-d694-4c7d-8573-6b747e2b9cb4.png)
 
