@@ -10,10 +10,10 @@ The package contains a custom velocity message containing only the planar forwar
 1. **Create a new workspace and clone the demonstration code.**
 ```
 # Create a new workspace
- mkdir -p ws/src
+ mkdir -p ~lawnmover_ws/src
 
 # clone the demonstration code
-cd ws/src
+cd lawnmover_ws/src
 git clone https://github.com/siddahant/Lawnmover_ros_package.git
 
 # return to ws root
