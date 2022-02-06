@@ -17,7 +17,7 @@ cd lawnmover_ws/src
 catkin_init_workspace
 git clone https://github.com/siddahant/Lawnmover_ros_package.git
 
-# return to ws root
+# return to lawnmover_ws root
 cd ../ 
 ```
 2. **Build the workspace and activate it.**
