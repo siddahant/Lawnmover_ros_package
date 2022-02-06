@@ -1,0 +1,4 @@
+<launch>
+  <node name="SES_turtlesim_lawnmover" pkg="turtlesim" type="turtlesim_node" output="screen" />
+  <node name="lawnmower" pkg="SES" type="lawnmower.py"  output="screen" />
+</launch>
