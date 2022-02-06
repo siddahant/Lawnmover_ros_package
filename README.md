@@ -14,6 +14,7 @@ The package contains a custom velocity message containing only the planar forwar
 
 # clone the demonstration code
 cd lawnmover_ws/src
+catkin_init_workspace
 git clone https://github.com/siddahant/Lawnmover_ros_package.git
 
 # return to ws root
@@ -21,8 +22,8 @@ cd ../
 ```
 2. **Build the workspace and activate it.**
 ```
-catkin_make install
-. devel/setup.bash
+catkin_make
+source devel/setup.bash
 ```
 3. **Launch the node.**
 ```
