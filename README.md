@@ -13,7 +13,7 @@ The package contains a custom velocity message containing only the planar forwar
  mkdir -p ~lawnmover_ws/src
 
 # clone the demonstration code
-cd lawnmover_ws/src
+cd ~lawnmover_ws/src
 catkin_init_workspace
 git clone https://github.com/siddahant/Lawnmover_ros_package.git
 
