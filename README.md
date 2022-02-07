@@ -6,18 +6,17 @@ The turtle asks the user for the start point, length, and width of the lawnmower
 The turtle uses a feedback control system to correct its position and orientation throughout the trajectory. At first, the turtle turns until it faces directly at the goal location and then moves toward the goal position, The loop of rotation and moves runs until the pattern is finished. 
 
 The package contains a custom velocity message containing only the planar forward and planar rotational velocities of the turtle.
+# Project Video 
+[![WATCH VIDEO](https://img.youtube.com/vi/YRq0E-wzZAw/0.jpg)](https://www.youtube.com/watch?v=YRq0E-wzZAw)
 
 1. **Create a new workspace and clone the demonstration code.**
 ```
-# Create a new workspace
- mkdir -p ~lawnmover_ws/src
 
 # clone the demonstration code
-cd ~lawnmover_ws/src
-catkin_init_workspace
+cd catkin_ws/src
 git clone https://github.com/siddahant/Lawnmover_ros_package.git
 
-# return to lawnmover_ws root
+# return to catkin_ws root
 cd ../ 
 ```
 2. **Build the workspace and activate it.**
@@ -48,4 +47,7 @@ roslaunch Lawnmover_ros_package lawnmower.launch
 **Path manipulation**
 
 ![Screenshot 2022-02-06 162300](https://user-images.githubusercontent.com/44742647/152706043-a70cb7aa-d43c-44e1-91d1-a668ad033a9a.png)
+
+
+
 
